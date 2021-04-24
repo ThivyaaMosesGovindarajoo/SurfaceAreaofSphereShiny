@@ -1,5 +1,7 @@
 install.packages("shiny")
+intall.packages("rsconnect")
 library(shiny)
+library(rsconnect)
 
 #Calculator for a Surface Area of a Sphere
 ui<- pageWithSidebar(
